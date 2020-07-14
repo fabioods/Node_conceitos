@@ -1,0 +1,25 @@
+{
+  "name": "conceitos_api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon",
+    "deploy": "sucrase ./src -d ./build --transforms imports"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sucrase": "^3.15.0"
+  }
+}
