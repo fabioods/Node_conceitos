@@ -46,7 +46,7 @@
 - Não informe nada no corpo da requisição;
 - Resposta: Lista de todos os projetos cadastrados;
 
-### Atualizar (PUT) => http://localhost:7000/project/ID-PROJETO-UUID
+#### Atualizar (PUT) => http://localhost:7000/project/ID-PROJETO-UUID
 - No corpo da requisição deve ser informado o novo title e o novo owner:
 `
 {
@@ -56,7 +56,7 @@
 `
 - Resposta: Projeto atualizado;
 
-### Excluir (DELETE) => http://localhost:7000/project/ID-PROJETO-UUID
+#### Excluir (DELETE) => http://localhost:7000/project/ID-PROJETO-UUID
 - No corpo da requisição não deve ser informado nada;
 - Resposta: Corpo da requisição em branco;
 
